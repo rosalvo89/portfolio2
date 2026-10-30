@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topo {
+    width: 100%;
+    height: 10vh;
+    font-family: Tahoma, sans-serif; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #fdbd10;
+}
+.principal {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0066b2;
+}
+.fundo {
+    display: flex; /* Utiliza o modelo flexível */
+    justify-content: space-around; /* Distribui os itens com espaço ao redor */
+    flex: 1; /* Faz a seção ocupar o espaço restante */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    flex-wrap: wrap;
+}
+
+.caixa {
+    display: flex;
+    height: 250px; /* Altura da caixa */
+    width: 250px; /* Largura da caixa */
+    border-radius: 30%; /* Cantos arredondados */
+    background-color: #ed7902;
+    display: flex; /* Utiliza o modelo flexível */
+    justify-content: center; /* Centraliza o conteúdo */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra para profundidade */
+}
+.caixa a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caixa:hover{
+    background-color: aqua;
+    transition: 0.5;
+}
+.logo {
+    width: 70%; /* Largura da imagem como 70% da caixa */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da caixa */
+    height: auto; /* Mantém a proporção da imagem */
+}
+.rodape {
+    width: 100%; /* Largura do rodapé */
+    height: 10vh; /* Altura do rodapé */
+    display: flex; /* Usa flexbox para o layout */
+    align-items: center; /* Alinha o conteúdo verticalmente no centro */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: #fdbd10;
+}
